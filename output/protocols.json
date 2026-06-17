@@ -1,0 +1,32 @@
+{
+    "E1_UNSW_within": {
+        "train": "unsw_train_split",
+        "validation": "unsw_val_split",
+        "test": "unsw_test_split"
+    },
+    "E2_ToN_within": {
+        "train": "ton_train_split",
+        "validation": "ton_val_split",
+        "test": "ton_test_split"
+    },
+    "E3_UNSW_to_ToN": {
+        "train": "unsw_train_split",
+        "validation": "unsw_val_split",
+        "test": "ton_test_split"
+    },
+    "E4_ToN_to_UNSW": {
+        "train": "ton_train_split",
+        "validation": "ton_val_split",
+        "test": "unsw_test_split"
+    },
+    "E5_Pooled_to_UNSW": {
+        "train": "pooled_train_split",
+        "validation": "pooled_val_split",
+        "test": "unsw_test_split"
+    },
+    "E5_Pooled_to_ToN": {
+        "train": "pooled_train_split",
+        "validation": "pooled_val_split",
+        "test": "ton_test_split"
+    }
+}

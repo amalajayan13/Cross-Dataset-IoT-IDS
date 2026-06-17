@@ -1,0 +1,10 @@
+{
+    "split_summary": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\output\\tables\\summary\\split_summary_compact.csv",
+    "model_results": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\output\\tables\\summary\\model_results_summary.csv",
+    "selected_detector": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\output\\tables\\summary\\selected_detector_summary.csv",
+    "transfer_summary": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\output\\tables\\summary\\transfer_summary_compact.csv",
+    "top_shap": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\output\\tables\\summary\\top_shap_summary.csv",
+    "low_detection_attack_types": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\output\\tables\\summary\\low_detection_attack_types.csv",
+    "normal_specificity": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\output\\tables\\summary\\normal_specificity.csv",
+    "case_summary": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\output\\tables\\summary\\case_summary_compact.csv"
+}

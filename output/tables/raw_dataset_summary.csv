@@ -1,0 +1,4 @@
+dataset,rows,columns,memory_mb,numeric_columns,categorical_columns,missing_values,duplicate_rows,label_columns
+unsw_train,175341,45,95.56,41,4,0,0,"['attack_cat', 'label']"
+unsw_test,82332,45,44.84,41,4,0,0,"['attack_cat', 'label']"
+ton_iot,211043,44,350.24,17,27,0,20569,"['dns_qclass', 'dns_qtype', 'http_orig_mime_types', 'http_resp_mime_types', 'label', 'type']"

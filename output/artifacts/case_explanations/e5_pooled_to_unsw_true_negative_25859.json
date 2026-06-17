@@ -1,0 +1,65 @@
+{
+    "case_id": "e5_pooled_to_unsw_true_negative_25859",
+    "protocol": "E5_Pooled_to_UNSW",
+    "model": "LightGBM",
+    "dataset": "UNSW-NB15",
+    "attack_type": "normal",
+    "true_label": 0,
+    "predicted_label": 0,
+    "score": 5.0081055086649086e-05,
+    "threshold": 0.5,
+    "case_type": "true_negative",
+    "top_evidence": [
+        {
+            "evidence": "duration=0.013751",
+            "feature_group": "duration",
+            "shap_value": -2.169120126825359,
+            "direction": "normal"
+        },
+        {
+            "evidence": "bytes_per_sec=1831721.33",
+            "feature_group": "bytes_per_sec",
+            "shap_value": -1.591274821142892,
+            "direction": "normal"
+        },
+        {
+            "evidence": "total_pkts=130.0000",
+            "feature_group": "total_pkts",
+            "shap_value": -1.4156950135427424,
+            "direction": "normal"
+        },
+        {
+            "evidence": "pkts_per_sec=9453.86",
+            "feature_group": "pkts_per_sec",
+            "shap_value": -1.2855106380096306,
+            "direction": "normal"
+        },
+        {
+            "evidence": "service=ssh",
+            "feature_group": "service",
+            "shap_value": -1.2105529242732567,
+            "direction": "normal"
+        },
+        {
+            "evidence": "dst_pkts=60.0000",
+            "feature_group": "dst_pkts",
+            "shap_value": -1.1350153248157535,
+            "direction": "normal"
+        },
+        {
+            "evidence": "src_pkts=70.0000",
+            "feature_group": "src_pkts",
+            "shap_value": -0.6493105450239913,
+            "direction": "normal"
+        },
+        {
+            "evidence": "src_bytes=12472.00",
+            "feature_group": "src_bytes",
+            "shap_value": -0.5473475798751987,
+            "direction": "normal"
+        }
+    ],
+    "evidence_csv": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\output\\artifacts\\case_explanations\\e5_pooled_to_unsw_true_negative_25859_evidence.csv",
+    "figure_pdf": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\output\\figures\\shap\\e5_pooled_to_unsw_true_negative_25859_shap.pdf",
+    "figure_png": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\output\\figures\\shap\\e5_pooled_to_unsw_true_negative_25859_shap.png"
+}

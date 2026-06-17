@@ -1,0 +1,48 @@
+{
+    "numeric_features": [
+        "duration",
+        "src_pkts",
+        "dst_pkts",
+        "src_bytes",
+        "dst_bytes",
+        "total_pkts",
+        "total_bytes",
+        "src_bytes_per_pkt",
+        "dst_bytes_per_pkt",
+        "bytes_per_sec",
+        "pkts_per_sec",
+        "src_to_dst_byte_ratio",
+        "src_to_dst_pkt_ratio",
+        "byte_imbalance",
+        "pkt_imbalance"
+    ],
+    "categorical_features": [
+        "proto",
+        "service",
+        "state"
+    ],
+    "model_features": [
+        "duration",
+        "src_pkts",
+        "dst_pkts",
+        "src_bytes",
+        "dst_bytes",
+        "total_pkts",
+        "total_bytes",
+        "src_bytes_per_pkt",
+        "dst_bytes_per_pkt",
+        "bytes_per_sec",
+        "pkts_per_sec",
+        "src_to_dst_byte_ratio",
+        "src_to_dst_pkt_ratio",
+        "byte_imbalance",
+        "pkt_imbalance",
+        "proto",
+        "service",
+        "state"
+    ],
+    "target": "label",
+    "normal_label": 0,
+    "attack_label": 1,
+    "ton_raw_duplicates_removed": 20569
+}

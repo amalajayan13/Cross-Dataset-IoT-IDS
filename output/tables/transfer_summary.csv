@@ -1,0 +1,3 @@
+setting,baseline_protocol,dann_protocol,best_baseline,baseline_f1,residual_mlp_f1,dann_f1,baseline_roc_auc,residual_mlp_roc_auc,dann_roc_auc,baseline_mcc,residual_mlp_mcc,dann_mcc,baseline_fpr,residual_mlp_fpr,dann_fpr,baseline_fnr,residual_mlp_fnr,dann_fnr
+UNSW_to_ToN,E3_UNSW_to_ToN,DANN_UNSW_to_ToN,XGBoost,0.560954,0.416053,0.807336,0.133771,0.211682,0.35131,-0.366778,-0.16133,-0.171201,0.92745,0.482755,0.993815,0.507798,0.701418,0.13255
+ToN_to_UNSW,E4_ToN_to_UNSW,DANN_ToN_to_UNSW,LightGBM,0.498965,0.678033,0.748181,0.293473,0.518654,0.571063,-0.320978,-0.021631,0.31517,0.862243,0.904892,0.723216,0.433645,0.10829,0.049524

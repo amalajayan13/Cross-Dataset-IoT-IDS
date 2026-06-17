@@ -1,0 +1,65 @@
+{
+    "case_id": "e5_pooled_to_unsw_false_positive_42697",
+    "protocol": "E5_Pooled_to_UNSW",
+    "model": "LightGBM",
+    "dataset": "UNSW-NB15",
+    "attack_type": "normal",
+    "true_label": 0,
+    "predicted_label": 1,
+    "score": 0.9962149653026872,
+    "threshold": 0.5,
+    "case_type": "false_positive",
+    "top_evidence": [
+        {
+            "evidence": "duration=0.000009",
+            "feature_group": "duration",
+            "shap_value": 1.9206750952733191,
+            "direction": "attack"
+        },
+        {
+            "evidence": "state=INT",
+            "feature_group": "state",
+            "shap_value": 0.6033914332482497,
+            "direction": "attack"
+        },
+        {
+            "evidence": "service=unknown",
+            "feature_group": "service",
+            "shap_value": -0.2622355688580742,
+            "direction": "normal"
+        },
+        {
+            "evidence": "src_to_dst_pkt_ratio=0.000000",
+            "feature_group": "src_to_dst_pkt_ratio",
+            "shap_value": -0.2062612304254754,
+            "direction": "normal"
+        },
+        {
+            "evidence": "src_bytes_per_pkt=90.0000",
+            "feature_group": "src_bytes_per_pkt",
+            "shap_value": 0.20280848605561438,
+            "direction": "attack"
+        },
+        {
+            "evidence": "total_pkts=2.0000",
+            "feature_group": "total_pkts",
+            "shap_value": 0.19607265980946173,
+            "direction": "attack"
+        },
+        {
+            "evidence": "src_pkts=2.0000",
+            "feature_group": "src_pkts",
+            "shap_value": 0.1699564325777109,
+            "direction": "attack"
+        },
+        {
+            "evidence": "total_bytes=180.0000",
+            "feature_group": "total_bytes",
+            "shap_value": -0.1499369339023444,
+            "direction": "normal"
+        }
+    ],
+    "evidence_csv": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\output\\artifacts\\case_explanations\\e5_pooled_to_unsw_false_positive_42697_evidence.csv",
+    "figure_pdf": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\output\\figures\\shap\\e5_pooled_to_unsw_false_positive_42697_shap.pdf",
+    "figure_png": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\output\\figures\\shap\\e5_pooled_to_unsw_false_positive_42697_shap.png"
+}

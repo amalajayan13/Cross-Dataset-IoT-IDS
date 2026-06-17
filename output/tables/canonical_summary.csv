@@ -1,0 +1,4 @@
+dataset,rows,columns,normal,attack,attack_percent,missing_values,duplicate_rows
+unsw_train,175341,22,56000,119341,68.062,0,88543
+unsw_test,82332,22,37000,45332,55.06,0,37178
+ton_iot,190474,22,42040,148434,77.929,0,98507

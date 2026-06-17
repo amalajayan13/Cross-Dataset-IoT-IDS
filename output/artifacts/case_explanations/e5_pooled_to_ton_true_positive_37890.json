@@ -1,0 +1,65 @@
+{
+    "case_id": "e5_pooled_to_ton_true_positive_37890",
+    "protocol": "E5_Pooled_to_ToN",
+    "model": "LightGBM",
+    "dataset": "ToN-IoT",
+    "attack_type": "dos",
+    "true_label": 1,
+    "predicted_label": 1,
+    "score": 0.9999722187719521,
+    "threshold": 0.5,
+    "case_type": "true_positive",
+    "top_evidence": [
+        {
+            "evidence": "state=REJ",
+            "feature_group": "state",
+            "shap_value": 4.963980821519605,
+            "direction": "attack"
+        },
+        {
+            "evidence": "bytes_per_sec=0.000000",
+            "feature_group": "bytes_per_sec",
+            "shap_value": 0.9232023838123483,
+            "direction": "attack"
+        },
+        {
+            "evidence": "src_to_dst_pkt_ratio=2.0000",
+            "feature_group": "src_to_dst_pkt_ratio",
+            "shap_value": 0.9228915095654491,
+            "direction": "attack"
+        },
+        {
+            "evidence": "total_bytes=0.000000",
+            "feature_group": "total_bytes",
+            "shap_value": 0.5689334501936495,
+            "direction": "attack"
+        },
+        {
+            "evidence": "duration=0.000262",
+            "feature_group": "duration",
+            "shap_value": -0.4799623695297926,
+            "direction": "normal"
+        },
+        {
+            "evidence": "src_pkts=4.0000",
+            "feature_group": "src_pkts",
+            "shap_value": 0.21080376463174894,
+            "direction": "attack"
+        },
+        {
+            "evidence": "pkts_per_sec=22900.76",
+            "feature_group": "pkts_per_sec",
+            "shap_value": -0.20280808037768017,
+            "direction": "normal"
+        },
+        {
+            "evidence": "total_pkts=6.0000",
+            "feature_group": "total_pkts",
+            "shap_value": 0.19006929810838152,
+            "direction": "attack"
+        }
+    ],
+    "evidence_csv": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\output\\artifacts\\case_explanations\\e5_pooled_to_ton_true_positive_37890_evidence.csv",
+    "figure_pdf": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\output\\figures\\shap\\e5_pooled_to_ton_true_positive_37890_shap.pdf",
+    "figure_png": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\output\\figures\\shap\\e5_pooled_to_ton_true_positive_37890_shap.png"
+}

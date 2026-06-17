@@ -1,0 +1,20 @@
+{
+    "run_time": "2026-06-17 20:24:35",
+    "base_dir": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26",
+    "data_dir": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\Datasets",
+    "output_dir": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\output",
+    "seed": 42,
+    "platform": "Windows-10-10.0.26200-SP0",
+    "torch_available": true,
+    "packages": {
+        "python": "3.10.20",
+        "numpy": "1.26.4",
+        "pandas": "2.3.3",
+        "scikit-learn": "1.7.2",
+        "matplotlib": "3.10.8",
+        "torch": "2.11.0+cu126",
+        "xgboost": "3.2.0",
+        "lightgbm": "4.6.0",
+        "shap": "0.49.1"
+    }
+}

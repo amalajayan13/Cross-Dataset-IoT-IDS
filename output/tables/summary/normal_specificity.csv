@@ -1,0 +1,3 @@
+protocol,attack_type,samples,metric,detection_rate,predicted_attack_percent,correct_percent
+E5_Pooled_to_ToN,normal,8408,specificity,0.9940532825880114,0.5946717411988582,99.40532825880112
+E5_Pooled_to_UNSW,normal,37000,specificity,0.9215135135135136,7.848648648648648,92.15135135135137

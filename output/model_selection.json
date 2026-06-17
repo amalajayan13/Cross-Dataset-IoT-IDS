@@ -1,0 +1,10 @@
+{
+    "selected_detector": "LightGBM",
+    "selected_protocols": [
+        "E5_Pooled_to_ToN",
+        "E5_Pooled_to_UNSW"
+    ],
+    "selection_reason": "LightGBM is used for SHAP analysis because it gives the strongest pooled UNSW result and near-best pooled ToN-IoT result while supporting fast tree-based SHAP explanations.",
+    "selected_detector_table": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\output\\tables\\selected_detector.csv",
+    "transfer_summary_table": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\output\\tables\\transfer_summary.csv"
+}

@@ -1,0 +1,65 @@
+{
+    "case_id": "e5_pooled_to_unsw_true_positive_5198",
+    "protocol": "E5_Pooled_to_UNSW",
+    "model": "LightGBM",
+    "dataset": "UNSW-NB15",
+    "attack_type": "analysis",
+    "true_label": 1,
+    "predicted_label": 1,
+    "score": 0.9998987464854001,
+    "threshold": 0.5,
+    "case_type": "true_positive",
+    "top_evidence": [
+        {
+            "evidence": "proto=unas",
+            "feature_group": "proto",
+            "shap_value": 2.832603916553249,
+            "direction": "attack"
+        },
+        {
+            "evidence": "duration=0.000001",
+            "feature_group": "duration",
+            "shap_value": 1.8868821375661087,
+            "direction": "attack"
+        },
+        {
+            "evidence": "state=INT",
+            "feature_group": "state",
+            "shap_value": 0.5864568642882331,
+            "direction": "attack"
+        },
+        {
+            "evidence": "src_bytes_per_pkt=100.0000",
+            "feature_group": "src_bytes_per_pkt",
+            "shap_value": 0.3901486642060812,
+            "direction": "attack"
+        },
+        {
+            "evidence": "src_bytes=200.0000",
+            "feature_group": "src_bytes",
+            "shap_value": 0.2692272107287829,
+            "direction": "attack"
+        },
+        {
+            "evidence": "service=unknown",
+            "feature_group": "service",
+            "shap_value": -0.20949973409597616,
+            "direction": "normal"
+        },
+        {
+            "evidence": "src_to_dst_pkt_ratio=0.000000",
+            "feature_group": "src_to_dst_pkt_ratio",
+            "shap_value": -0.18044121890134962,
+            "direction": "normal"
+        },
+        {
+            "evidence": "total_pkts=2.0000",
+            "feature_group": "total_pkts",
+            "shap_value": 0.15790216829898807,
+            "direction": "attack"
+        }
+    ],
+    "evidence_csv": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\output\\artifacts\\case_explanations\\e5_pooled_to_unsw_true_positive_5198_evidence.csv",
+    "figure_pdf": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\output\\figures\\shap\\e5_pooled_to_unsw_true_positive_5198_shap.pdf",
+    "figure_png": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\output\\figures\\shap\\e5_pooled_to_unsw_true_positive_5198_shap.png"
+}

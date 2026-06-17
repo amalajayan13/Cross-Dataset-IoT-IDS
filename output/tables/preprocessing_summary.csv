@@ -1,0 +1,4 @@
+source,train_rows,validation_rows,test_rows,encoded_features,numeric_features,one_hot_features
+UNSW,140272,35069,82332,170,15,155
+ToN-IoT,114284,38095,38095,40,15,25
+Pooled,254556,73164,82332,187,15,172

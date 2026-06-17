@@ -1,0 +1,9 @@
+encoded_feature,feature_group,evidence,raw_value,encoded_value,shap_value,abs_shap_value,direction
+duration,duration,duration=0.000009,9e-06,-0.4237734793584052,1.9206750952733191,1.9206750952733191,attack
+state_INT,state,state=INT,INT,1.0,0.6033914332482497,0.6033914332482497,attack
+service_unknown,service,service=unknown,unknown,1.0,-0.2622355688580742,0.2622355688580742,normal
+src_to_dst_pkt_ratio,src_to_dst_pkt_ratio,src_to_dst_pkt_ratio=0.000000,0.0,-1.013041904069537,-0.2062612304254754,0.2062612304254754,normal
+src_bytes_per_pkt,src_bytes_per_pkt,src_bytes_per_pkt=90.0000,90.0,0.6420325737003385,0.20280848605561438,0.20280848605561438,attack
+total_pkts,total_pkts,total_pkts=2.0000,2.0,-0.6967555659603998,0.19607265980946173,0.19607265980946173,attack
+src_pkts,src_pkts,src_pkts=2.0000,2.0,-0.5038110628334137,0.1699564325777109,0.1699564325777109,attack
+total_bytes,total_bytes,total_bytes=180.0000,180.0,0.06543896332322958,-0.1499369339023444,0.1499369339023444,normal

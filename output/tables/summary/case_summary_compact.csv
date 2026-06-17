@@ -1,0 +1,9 @@
+protocol,dataset,attack_type,case_type,true_label,predicted_label,score,top_evidence,top_shap,direction
+E5_Pooled_to_ToN,ToN-IoT,dos,true_positive,1,1,0.999972218771952,state=REJ,4.963980821519605,attack
+E5_Pooled_to_ToN,ToN-IoT,normal,false_positive,0,1,0.9990095246539568,duration=0.000000,2.1540715479385586,attack
+E5_Pooled_to_ToN,ToN-IoT,mitm,false_negative,1,0,0.0102690138541398,dst_bytes_per_pkt=103.0000,-1.3914904657588882,normal
+E5_Pooled_to_ToN,ToN-IoT,normal,true_negative,0,0,0.0001518613053202,state=S0,-2.51955103996184,normal
+E5_Pooled_to_UNSW,UNSW-NB15,analysis,true_positive,1,1,0.9998987464854,proto=unas,2.832603916553249,attack
+E5_Pooled_to_UNSW,UNSW-NB15,normal,false_positive,0,1,0.9962149653026872,duration=0.000009,1.9206750952733191,attack
+E5_Pooled_to_UNSW,UNSW-NB15,exploits,false_negative,1,0,0.0133506420898641,bytes_per_sec=279121.59,-2.182029060400427,normal
+E5_Pooled_to_UNSW,UNSW-NB15,normal,true_negative,0,0,5.0081055086649086e-05,duration=0.013751,-2.169120126825359,normal

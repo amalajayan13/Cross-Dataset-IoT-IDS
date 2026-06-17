@@ -1,0 +1,65 @@
+{
+    "case_id": "e5_pooled_to_ton_true_negative_9934",
+    "protocol": "E5_Pooled_to_ToN",
+    "model": "LightGBM",
+    "dataset": "ToN-IoT",
+    "attack_type": "normal",
+    "true_label": 0,
+    "predicted_label": 0,
+    "score": 0.00015186130532024924,
+    "threshold": 0.5,
+    "case_type": "true_negative",
+    "top_evidence": [
+        {
+            "evidence": "state=S0",
+            "feature_group": "state",
+            "shap_value": -2.51955103996184,
+            "direction": "normal"
+        },
+        {
+            "evidence": "duration=0.138033",
+            "feature_group": "duration",
+            "shap_value": -2.300748001865145,
+            "direction": "normal"
+        },
+        {
+            "evidence": "src_pkts=120.0000",
+            "feature_group": "src_pkts",
+            "shap_value": -2.2700654229076918,
+            "direction": "normal"
+        },
+        {
+            "evidence": "total_pkts=120.0000",
+            "feature_group": "total_pkts",
+            "shap_value": -1.8485633612002894,
+            "direction": "normal"
+        },
+        {
+            "evidence": "pkts_per_sec=869.3573",
+            "feature_group": "pkts_per_sec",
+            "shap_value": -1.21030654830508,
+            "direction": "normal"
+        },
+        {
+            "evidence": "src_to_dst_pkt_ratio=0.000000",
+            "feature_group": "src_to_dst_pkt_ratio",
+            "shap_value": -1.014078203208985,
+            "direction": "normal"
+        },
+        {
+            "evidence": "bytes_per_sec=0.000000",
+            "feature_group": "bytes_per_sec",
+            "shap_value": 0.3047641858110968,
+            "direction": "attack"
+        },
+        {
+            "evidence": "total_bytes=0.000000",
+            "feature_group": "total_bytes",
+            "shap_value": 0.2963093171976876,
+            "direction": "attack"
+        }
+    ],
+    "evidence_csv": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\output\\artifacts\\case_explanations\\e5_pooled_to_ton_true_negative_9934_evidence.csv",
+    "figure_pdf": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\output\\figures\\shap\\e5_pooled_to_ton_true_negative_9934_shap.pdf",
+    "figure_png": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\output\\figures\\shap\\e5_pooled_to_ton_true_negative_9934_shap.png"
+}

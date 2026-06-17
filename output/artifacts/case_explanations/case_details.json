@@ -1,0 +1,522 @@
+[
+    {
+        "case_id": "e5_pooled_to_ton_true_positive_37890",
+        "protocol": "E5_Pooled_to_ToN",
+        "model": "LightGBM",
+        "dataset": "ToN-IoT",
+        "attack_type": "dos",
+        "true_label": 1,
+        "predicted_label": 1,
+        "score": 0.9999722187719521,
+        "threshold": 0.5,
+        "case_type": "true_positive",
+        "top_evidence": [
+            {
+                "evidence": "state=REJ",
+                "feature_group": "state",
+                "shap_value": 4.963980821519605,
+                "direction": "attack"
+            },
+            {
+                "evidence": "bytes_per_sec=0.000000",
+                "feature_group": "bytes_per_sec",
+                "shap_value": 0.9232023838123483,
+                "direction": "attack"
+            },
+            {
+                "evidence": "src_to_dst_pkt_ratio=2.0000",
+                "feature_group": "src_to_dst_pkt_ratio",
+                "shap_value": 0.9228915095654491,
+                "direction": "attack"
+            },
+            {
+                "evidence": "total_bytes=0.000000",
+                "feature_group": "total_bytes",
+                "shap_value": 0.5689334501936495,
+                "direction": "attack"
+            },
+            {
+                "evidence": "duration=0.000262",
+                "feature_group": "duration",
+                "shap_value": -0.4799623695297926,
+                "direction": "normal"
+            },
+            {
+                "evidence": "src_pkts=4.0000",
+                "feature_group": "src_pkts",
+                "shap_value": 0.21080376463174894,
+                "direction": "attack"
+            },
+            {
+                "evidence": "pkts_per_sec=22900.76",
+                "feature_group": "pkts_per_sec",
+                "shap_value": -0.20280808037768017,
+                "direction": "normal"
+            },
+            {
+                "evidence": "total_pkts=6.0000",
+                "feature_group": "total_pkts",
+                "shap_value": 0.19006929810838152,
+                "direction": "attack"
+            }
+        ],
+        "evidence_csv": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\output\\artifacts\\case_explanations\\e5_pooled_to_ton_true_positive_37890_evidence.csv",
+        "figure_pdf": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\output\\figures\\shap\\e5_pooled_to_ton_true_positive_37890_shap.pdf",
+        "figure_png": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\output\\figures\\shap\\e5_pooled_to_ton_true_positive_37890_shap.png"
+    },
+    {
+        "case_id": "e5_pooled_to_ton_false_positive_3844",
+        "protocol": "E5_Pooled_to_ToN",
+        "model": "LightGBM",
+        "dataset": "ToN-IoT",
+        "attack_type": "normal",
+        "true_label": 0,
+        "predicted_label": 1,
+        "score": 0.9990095246539568,
+        "threshold": 0.5,
+        "case_type": "false_positive",
+        "top_evidence": [
+            {
+                "evidence": "duration=0.000000",
+                "feature_group": "duration",
+                "shap_value": 2.1540715479385586,
+                "direction": "attack"
+            },
+            {
+                "evidence": "pkts_per_sec=0 (duration near zero)",
+                "feature_group": "pkts_per_sec",
+                "shap_value": 0.9907608625476737,
+                "direction": "attack"
+            },
+            {
+                "evidence": "state=S0",
+                "feature_group": "state",
+                "shap_value": -0.9436089865622522,
+                "direction": "normal"
+            },
+            {
+                "evidence": "proto=tcp",
+                "feature_group": "proto",
+                "shap_value": 0.7242818699666129,
+                "direction": "attack"
+            },
+            {
+                "evidence": "src_pkts=1.0000",
+                "feature_group": "src_pkts",
+                "shap_value": 0.3763739913914841,
+                "direction": "attack"
+            },
+            {
+                "evidence": "src_to_dst_pkt_ratio=0.000000",
+                "feature_group": "src_to_dst_pkt_ratio",
+                "shap_value": -0.2925869479953626,
+                "direction": "normal"
+            },
+            {
+                "evidence": "total_bytes=0.000000",
+                "feature_group": "total_bytes",
+                "shap_value": 0.2537359023689115,
+                "direction": "attack"
+            },
+            {
+                "evidence": "service=unknown",
+                "feature_group": "service",
+                "shap_value": -0.16521930026835,
+                "direction": "normal"
+            }
+        ],
+        "evidence_csv": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\output\\artifacts\\case_explanations\\e5_pooled_to_ton_false_positive_3844_evidence.csv",
+        "figure_pdf": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\output\\figures\\shap\\e5_pooled_to_ton_false_positive_3844_shap.pdf",
+        "figure_png": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\output\\figures\\shap\\e5_pooled_to_ton_false_positive_3844_shap.png"
+    },
+    {
+        "case_id": "e5_pooled_to_ton_false_negative_7338",
+        "protocol": "E5_Pooled_to_ToN",
+        "model": "LightGBM",
+        "dataset": "ToN-IoT",
+        "attack_type": "mitm",
+        "true_label": 1,
+        "predicted_label": 0,
+        "score": 0.010269013854139874,
+        "threshold": 0.5,
+        "case_type": "false_negative",
+        "top_evidence": [
+            {
+                "evidence": "dst_bytes_per_pkt=103.0000",
+                "feature_group": "dst_bytes_per_pkt",
+                "shap_value": -1.3914904657588882,
+                "direction": "normal"
+            },
+            {
+                "evidence": "duration=0.011987",
+                "feature_group": "duration",
+                "shap_value": -1.3349266695189705,
+                "direction": "normal"
+            },
+            {
+                "evidence": "src_bytes_per_pkt=47.0000",
+                "feature_group": "src_bytes_per_pkt",
+                "shap_value": -0.5934947035747431,
+                "direction": "normal"
+            },
+            {
+                "evidence": "total_bytes=150.0000",
+                "feature_group": "total_bytes",
+                "shap_value": -0.586443925575719,
+                "direction": "normal"
+            },
+            {
+                "evidence": "total_pkts=2.0000",
+                "feature_group": "total_pkts",
+                "shap_value": -0.5218613785154187,
+                "direction": "normal"
+            },
+            {
+                "evidence": "src_bytes=47.0000",
+                "feature_group": "src_bytes",
+                "shap_value": -0.4324794618226817,
+                "direction": "normal"
+            },
+            {
+                "evidence": "state=SF",
+                "feature_group": "state",
+                "shap_value": 0.41080046590639085,
+                "direction": "attack"
+            },
+            {
+                "evidence": "src_pkts=1.0000",
+                "feature_group": "src_pkts",
+                "shap_value": -0.3830464366910594,
+                "direction": "normal"
+            }
+        ],
+        "evidence_csv": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\output\\artifacts\\case_explanations\\e5_pooled_to_ton_false_negative_7338_evidence.csv",
+        "figure_pdf": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\output\\figures\\shap\\e5_pooled_to_ton_false_negative_7338_shap.pdf",
+        "figure_png": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\output\\figures\\shap\\e5_pooled_to_ton_false_negative_7338_shap.png"
+    },
+    {
+        "case_id": "e5_pooled_to_ton_true_negative_9934",
+        "protocol": "E5_Pooled_to_ToN",
+        "model": "LightGBM",
+        "dataset": "ToN-IoT",
+        "attack_type": "normal",
+        "true_label": 0,
+        "predicted_label": 0,
+        "score": 0.00015186130532024924,
+        "threshold": 0.5,
+        "case_type": "true_negative",
+        "top_evidence": [
+            {
+                "evidence": "state=S0",
+                "feature_group": "state",
+                "shap_value": -2.51955103996184,
+                "direction": "normal"
+            },
+            {
+                "evidence": "duration=0.138033",
+                "feature_group": "duration",
+                "shap_value": -2.300748001865145,
+                "direction": "normal"
+            },
+            {
+                "evidence": "src_pkts=120.0000",
+                "feature_group": "src_pkts",
+                "shap_value": -2.2700654229076918,
+                "direction": "normal"
+            },
+            {
+                "evidence": "total_pkts=120.0000",
+                "feature_group": "total_pkts",
+                "shap_value": -1.8485633612002894,
+                "direction": "normal"
+            },
+            {
+                "evidence": "pkts_per_sec=869.3573",
+                "feature_group": "pkts_per_sec",
+                "shap_value": -1.21030654830508,
+                "direction": "normal"
+            },
+            {
+                "evidence": "src_to_dst_pkt_ratio=0.000000",
+                "feature_group": "src_to_dst_pkt_ratio",
+                "shap_value": -1.014078203208985,
+                "direction": "normal"
+            },
+            {
+                "evidence": "bytes_per_sec=0.000000",
+                "feature_group": "bytes_per_sec",
+                "shap_value": 0.3047641858110968,
+                "direction": "attack"
+            },
+            {
+                "evidence": "total_bytes=0.000000",
+                "feature_group": "total_bytes",
+                "shap_value": 0.2963093171976876,
+                "direction": "attack"
+            }
+        ],
+        "evidence_csv": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\output\\artifacts\\case_explanations\\e5_pooled_to_ton_true_negative_9934_evidence.csv",
+        "figure_pdf": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\output\\figures\\shap\\e5_pooled_to_ton_true_negative_9934_shap.pdf",
+        "figure_png": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\output\\figures\\shap\\e5_pooled_to_ton_true_negative_9934_shap.png"
+    },
+    {
+        "case_id": "e5_pooled_to_unsw_true_positive_5198",
+        "protocol": "E5_Pooled_to_UNSW",
+        "model": "LightGBM",
+        "dataset": "UNSW-NB15",
+        "attack_type": "analysis",
+        "true_label": 1,
+        "predicted_label": 1,
+        "score": 0.9998987464854001,
+        "threshold": 0.5,
+        "case_type": "true_positive",
+        "top_evidence": [
+            {
+                "evidence": "proto=unas",
+                "feature_group": "proto",
+                "shap_value": 2.832603916553249,
+                "direction": "attack"
+            },
+            {
+                "evidence": "duration=0.000001",
+                "feature_group": "duration",
+                "shap_value": 1.8868821375661087,
+                "direction": "attack"
+            },
+            {
+                "evidence": "state=INT",
+                "feature_group": "state",
+                "shap_value": 0.5864568642882331,
+                "direction": "attack"
+            },
+            {
+                "evidence": "src_bytes_per_pkt=100.0000",
+                "feature_group": "src_bytes_per_pkt",
+                "shap_value": 0.3901486642060812,
+                "direction": "attack"
+            },
+            {
+                "evidence": "src_bytes=200.0000",
+                "feature_group": "src_bytes",
+                "shap_value": 0.2692272107287829,
+                "direction": "attack"
+            },
+            {
+                "evidence": "service=unknown",
+                "feature_group": "service",
+                "shap_value": -0.20949973409597616,
+                "direction": "normal"
+            },
+            {
+                "evidence": "src_to_dst_pkt_ratio=0.000000",
+                "feature_group": "src_to_dst_pkt_ratio",
+                "shap_value": -0.18044121890134962,
+                "direction": "normal"
+            },
+            {
+                "evidence": "total_pkts=2.0000",
+                "feature_group": "total_pkts",
+                "shap_value": 0.15790216829898807,
+                "direction": "attack"
+            }
+        ],
+        "evidence_csv": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\output\\artifacts\\case_explanations\\e5_pooled_to_unsw_true_positive_5198_evidence.csv",
+        "figure_pdf": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\output\\figures\\shap\\e5_pooled_to_unsw_true_positive_5198_shap.pdf",
+        "figure_png": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\output\\figures\\shap\\e5_pooled_to_unsw_true_positive_5198_shap.png"
+    },
+    {
+        "case_id": "e5_pooled_to_unsw_false_positive_42697",
+        "protocol": "E5_Pooled_to_UNSW",
+        "model": "LightGBM",
+        "dataset": "UNSW-NB15",
+        "attack_type": "normal",
+        "true_label": 0,
+        "predicted_label": 1,
+        "score": 0.9962149653026872,
+        "threshold": 0.5,
+        "case_type": "false_positive",
+        "top_evidence": [
+            {
+                "evidence": "duration=0.000009",
+                "feature_group": "duration",
+                "shap_value": 1.9206750952733191,
+                "direction": "attack"
+            },
+            {
+                "evidence": "state=INT",
+                "feature_group": "state",
+                "shap_value": 0.6033914332482497,
+                "direction": "attack"
+            },
+            {
+                "evidence": "service=unknown",
+                "feature_group": "service",
+                "shap_value": -0.2622355688580742,
+                "direction": "normal"
+            },
+            {
+                "evidence": "src_to_dst_pkt_ratio=0.000000",
+                "feature_group": "src_to_dst_pkt_ratio",
+                "shap_value": -0.2062612304254754,
+                "direction": "normal"
+            },
+            {
+                "evidence": "src_bytes_per_pkt=90.0000",
+                "feature_group": "src_bytes_per_pkt",
+                "shap_value": 0.20280848605561438,
+                "direction": "attack"
+            },
+            {
+                "evidence": "total_pkts=2.0000",
+                "feature_group": "total_pkts",
+                "shap_value": 0.19607265980946173,
+                "direction": "attack"
+            },
+            {
+                "evidence": "src_pkts=2.0000",
+                "feature_group": "src_pkts",
+                "shap_value": 0.1699564325777109,
+                "direction": "attack"
+            },
+            {
+                "evidence": "total_bytes=180.0000",
+                "feature_group": "total_bytes",
+                "shap_value": -0.1499369339023444,
+                "direction": "normal"
+            }
+        ],
+        "evidence_csv": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\output\\artifacts\\case_explanations\\e5_pooled_to_unsw_false_positive_42697_evidence.csv",
+        "figure_pdf": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\output\\figures\\shap\\e5_pooled_to_unsw_false_positive_42697_shap.pdf",
+        "figure_png": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\output\\figures\\shap\\e5_pooled_to_unsw_false_positive_42697_shap.png"
+    },
+    {
+        "case_id": "e5_pooled_to_unsw_false_negative_11838",
+        "protocol": "E5_Pooled_to_UNSW",
+        "model": "LightGBM",
+        "dataset": "UNSW-NB15",
+        "attack_type": "exploits",
+        "true_label": 1,
+        "predicted_label": 0,
+        "score": 0.013350642089864197,
+        "threshold": 0.5,
+        "case_type": "false_negative",
+        "top_evidence": [
+            {
+                "evidence": "bytes_per_sec=279121.59",
+                "feature_group": "bytes_per_sec",
+                "shap_value": -2.182029060400427,
+                "direction": "normal"
+            },
+            {
+                "evidence": "total_pkts=84.0000",
+                "feature_group": "total_pkts",
+                "shap_value": -1.685335946818939,
+                "direction": "normal"
+            },
+            {
+                "evidence": "duration=0.299314",
+                "feature_group": "duration",
+                "shap_value": -1.4708742593229802,
+                "direction": "normal"
+            },
+            {
+                "evidence": "src_bytes=1148.00",
+                "feature_group": "src_bytes",
+                "shap_value": -1.1920561019717761,
+                "direction": "normal"
+            },
+            {
+                "evidence": "service=http",
+                "feature_group": "service",
+                "shap_value": 0.803102686136727,
+                "direction": "attack"
+            },
+            {
+                "evidence": "dst_pkts=66.0000",
+                "feature_group": "dst_pkts",
+                "shap_value": -0.6759421035699149,
+                "direction": "normal"
+            },
+            {
+                "evidence": "dst_bytes_per_pkt=1248.44",
+                "feature_group": "dst_bytes_per_pkt",
+                "shap_value": 0.5431280959170566,
+                "direction": "attack"
+            },
+            {
+                "evidence": "src_to_dst_pkt_ratio=0.272727",
+                "feature_group": "src_to_dst_pkt_ratio",
+                "shap_value": 0.3645541370914223,
+                "direction": "attack"
+            }
+        ],
+        "evidence_csv": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\output\\artifacts\\case_explanations\\e5_pooled_to_unsw_false_negative_11838_evidence.csv",
+        "figure_pdf": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\output\\figures\\shap\\e5_pooled_to_unsw_false_negative_11838_shap.pdf",
+        "figure_png": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\output\\figures\\shap\\e5_pooled_to_unsw_false_negative_11838_shap.png"
+    },
+    {
+        "case_id": "e5_pooled_to_unsw_true_negative_25859",
+        "protocol": "E5_Pooled_to_UNSW",
+        "model": "LightGBM",
+        "dataset": "UNSW-NB15",
+        "attack_type": "normal",
+        "true_label": 0,
+        "predicted_label": 0,
+        "score": 5.0081055086649086e-05,
+        "threshold": 0.5,
+        "case_type": "true_negative",
+        "top_evidence": [
+            {
+                "evidence": "duration=0.013751",
+                "feature_group": "duration",
+                "shap_value": -2.169120126825359,
+                "direction": "normal"
+            },
+            {
+                "evidence": "bytes_per_sec=1831721.33",
+                "feature_group": "bytes_per_sec",
+                "shap_value": -1.591274821142892,
+                "direction": "normal"
+            },
+            {
+                "evidence": "total_pkts=130.0000",
+                "feature_group": "total_pkts",
+                "shap_value": -1.4156950135427424,
+                "direction": "normal"
+            },
+            {
+                "evidence": "pkts_per_sec=9453.86",
+                "feature_group": "pkts_per_sec",
+                "shap_value": -1.2855106380096306,
+                "direction": "normal"
+            },
+            {
+                "evidence": "service=ssh",
+                "feature_group": "service",
+                "shap_value": -1.2105529242732567,
+                "direction": "normal"
+            },
+            {
+                "evidence": "dst_pkts=60.0000",
+                "feature_group": "dst_pkts",
+                "shap_value": -1.1350153248157535,
+                "direction": "normal"
+            },
+            {
+                "evidence": "src_pkts=70.0000",
+                "feature_group": "src_pkts",
+                "shap_value": -0.6493105450239913,
+                "direction": "normal"
+            },
+            {
+                "evidence": "src_bytes=12472.00",
+                "feature_group": "src_bytes",
+                "shap_value": -0.5473475798751987,
+                "direction": "normal"
+            }
+        ],
+        "evidence_csv": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\output\\artifacts\\case_explanations\\e5_pooled_to_unsw_true_negative_25859_evidence.csv",
+        "figure_pdf": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\output\\figures\\shap\\e5_pooled_to_unsw_true_negative_25859_shap.pdf",
+        "figure_png": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\output\\figures\\shap\\e5_pooled_to_unsw_true_negative_25859_shap.png"
+    }
+]

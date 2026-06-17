@@ -1,0 +1,9 @@
+encoded_feature,feature_group,evidence,raw_value,encoded_value,shap_value,abs_shap_value,direction
+proto_unas,proto,proto=unas,unas,1.0,2.832603916553249,2.832603916553249,attack
+duration,duration,duration=0.000001,1e-06,-0.42378340575044904,1.8868821375661087,1.8868821375661087,attack
+state_INT,state,state=INT,INT,1.0,0.5864568642882331,0.5864568642882331,attack
+src_bytes_per_pkt,src_bytes_per_pkt,src_bytes_per_pkt=100.0000,100.0,0.6921784707057391,0.3901486642060812,0.3901486642060812,attack
+src_bytes,src_bytes,src_bytes=200.0000,200.0,0.3113455201920615,0.2692272107287829,0.2692272107287829,attack
+service_unknown,service,service=unknown,unknown,1.0,-0.20949973409597616,0.20949973409597616,normal
+src_to_dst_pkt_ratio,src_to_dst_pkt_ratio,src_to_dst_pkt_ratio=0.000000,0.0,-1.013041904069537,-0.18044121890134962,0.18044121890134962,normal
+total_pkts,total_pkts,total_pkts=2.0000,2.0,-0.6967555659603998,0.15790216829898807,0.15790216829898807,attack
