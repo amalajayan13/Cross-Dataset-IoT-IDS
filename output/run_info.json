@@ -1,8 +1,8 @@
 {
-    "run_time": "2026-06-17 20:24:35",
-    "base_dir": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26",
-    "data_dir": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\Datasets",
-    "output_dir": "F:\\MBZUAI UAE\\16-Conference\\2-WiMob26\\output",
+    "run_time": "2026-06-21 23:36:48",
+    "base_dir": "F:\\MBZUAI UAE\\16-Conference\\2-Wireless-IoT-IDS-WiMob26\\Wireless-IoT-IDS",
+    "data_dir": "F:\\MBZUAI UAE\\16-Conference\\2-Wireless-IoT-IDS-WiMob26\\Wireless-IoT-IDS\\Datasets",
+    "output_dir": "F:\\MBZUAI UAE\\16-Conference\\2-Wireless-IoT-IDS-WiMob26\\Wireless-IoT-IDS\\output",
     "seed": 42,
     "platform": "Windows-10-10.0.26200-SP0",
     "torch_available": true,
