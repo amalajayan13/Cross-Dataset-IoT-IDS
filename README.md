@@ -1,4 +1,4 @@
-# Wireless-IoT-IDS
+# Learning Transferable Network Representations for Cross-Domain IoT Intrusion Detection
 
 ## Reproducibility
 This repository contains the Jupyter notebook used for the analysis in the preparation of the latest manuscript version. The notebook `main_v2.ipynb` can be opened directly. 
